@@ -1,11 +1,12 @@
 # Shop
-Basic shop
+Project: Basic shop
 
 I've grown a huge interest for web development.  So let's get my hands dirty with it!
 Here's a project I've started to introduce myself to web development by exploring the following:
 
+----------------------
 Technologies
-
+----------------------
 1. HTML, 
 2. CSS,
 3. JavaScript/PHP, 
@@ -14,8 +15,9 @@ Technologies
 6. Ajax,
 7. other API(s)
 
+----------------------
 Concepts 
-
+----------------------
 1. Responsive Design
 
 
