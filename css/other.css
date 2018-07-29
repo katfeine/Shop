@@ -1,0 +1,83 @@
+/* Fonts */
+h1, h2, h3, h4, h5, h6, .placeholder
+{
+	font-family: "Jokerman";
+}
+p
+{
+	font-family: "Courier New";
+}
+/* Blank Space */
+.blankspace
+{
+	height:600px;
+	width:100%;
+	background-color: transparent;
+}
+.title 
+{
+	font-size: 50px;
+	text-align: center;
+	width:100%;
+}
+.para 
+{
+	text-align: center;
+	font-size: 20px;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 10%;
+	margin-bottom: 20%;
+	
+}
+/* Paragraph properties */
+.bold
+{
+	color: crimson;
+	font-weight: bolder;
+	font-size: 100px;
+	font-style: italic;
+}
+strong
+{
+	color:green;
+}
+
+form
+{
+	text-align: center;
+}
+
+
+/* User Icons */
+.cart
+{
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-top: 10%;
+	text-align: center;
+}
+.iconCart
+{
+	max-width: 100px;
+}
+.iconUser
+{
+	max-width: 40px;
+}
+.iconPW
+{
+	max-width: 40px;
+}
+.placeholder
+{
+	font-size: 20px;
+	text-align: center;
+	color: darkgreen;
+}
+label
+{
+	vertical-align: middle;
+	display: inline-block;
+	padding: 12px 12px 12px 0;
+}

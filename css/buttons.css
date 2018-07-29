@@ -1,0 +1,112 @@
+/* 
+Purpose: Button styles
+Credit: https://www.w3schools.com/css/css3_buttons.asp
+*/
+
+/* Fonts */
+.button, .buttonShop
+{
+	font-family: "Jokerman";
+}
+/*
+Purpose: Buttons for WHAT WE MAKE, WHO WE ARE, CONTACT US
+*/
+.button 
+{
+	display: inline-block;
+	padding: 30px 2px;
+	font-size: 24px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: black;
+	background-color: transparent;
+	border: none;
+	border-radius: 30px;
+	box-shadow: 0 9px #999;
+	width: 100%;
+	margin-top: 30px;
+	
+	
+}
+
+.button:hover {background-color: honeydew}
+
+.button:active 
+{
+	background-color: greenyellow;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+/* Box-shadow colors */
+input[id="what_we_make"]
+{
+	box-shadow: 0 9px deepskyblue;
+}
+input[id="who_we_are"]
+{
+	box-shadow: 0 9px limegreen;	
+}
+input[id="contact_us"]
+{
+	box-shadow: 0 9px palevioletred;
+}
+/* Hover properties */
+#who_we_are:hover 
+{
+	background-color: limegreen;
+	color: white;
+}
+#contact_us:hover 
+{
+	background-color: palevioletred;
+	color: white;
+}
+#what_we_make:hover 
+{
+	background-color: deepskyblue;
+	color: white;
+}
+/* Active properties */
+#who_we_are:active {
+	background-color: black;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+#contact_us:active {
+	background-color: black;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+#what_we_make:active {
+	background-color: black;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+/*
+Purpose: Buttons for quickview, add to cart
+*/
+.buttonShop {
+	display: inline-block;
+	padding: 5px 2px;
+	font-size: 18px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: black;
+	background-color: transparent;
+	border: none;
+	border-radius: 50px;
+	box-shadow: 0 9px #999;
+	width: 50%;
+	margin-top: 0px;
+}
+.buttonShop:hover {background-color: honeydew}
+
+.buttonShop:active {
+	background-color: yellow;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
